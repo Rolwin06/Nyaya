@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 16" fill="none" class="w-20 sm:w-24 h-3 sm:h-4">
+  <defs>
+    <linearGradient id="divGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A77A35" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#A77A35" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#A77A35" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+  <!-- Left Dot -->
+  <circle cx="36" cy="8" r="1.5" fill="#A77A35" />
+  
+  <!-- Left hairline -->
+  <line x1="12" y1="8" x2="30" y2="8" stroke="url(#divGold)" stroke-width="0.8" stroke-linecap="round" />
+
+  <!-- Center Diamond -->
+  <path d="M60,3 L65,8 L60,13 L55,8 Z" fill="#A77A35" />
+  <circle cx="60" cy="8" r="1.2" fill="#FAF5ED" />
+
+  <!-- Right Dot -->
+  <circle cx="84" cy="8" r="1.5" fill="#A77A35" />
+  
+  <!-- Right hairline -->
+  <line x1="90" y1="8" x2="108" y2="8" stroke="url(#divGold)" stroke-width="0.8" stroke-linecap="round" />
+</svg>

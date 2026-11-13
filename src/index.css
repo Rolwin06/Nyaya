@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-ivory: #F5EBDD;
+    --color-marble: #EFE5D6;
+    --color-burgundy: #711F24;
+    --color-burgundy-hover: #5D181C;
+    --color-gold: #A77A35;
+    --color-brown: #302016;
+    --color-parchment: #E8D8BF;
+  }
+
+  body {
+    background-color: #F5EBDD;
+    color: #302016;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom classical typography */
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+/* Subtle classical Roman styling */
+.roman-shadow-sm {
+  box-shadow: 0 2px 8px -1px rgba(48, 32, 22, 0.06), 0 1px 4px -1px rgba(48, 32, 22, 0.03);
+}
+
+.roman-shadow-md {
+  box-shadow: 0 6px 20px -2px rgba(48, 32, 22, 0.08), 0 2px 6px -1px rgba(48, 32, 22, 0.04);
+}
+
+.roman-shadow-lg {
+  box-shadow: 0 12px 32px -4px rgba(48, 32, 22, 0.12), 0 4px 12px -2px rgba(48, 32, 22, 0.06);
+}
+
